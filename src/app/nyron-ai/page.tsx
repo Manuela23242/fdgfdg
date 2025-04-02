@@ -110,12 +110,12 @@ const ProductPage = () => {
                   ))}
                 </div>
 
-                <button className="w-full mt-6 bg-nyron-primary hover:bg-nyron-primary/90 text-white font-medium py-3 rounded-md flex items-center justify-center gap-2 transition-colors">
-                   onClick={() => window.location.href = "https://ihre-zahlungsseite.com"}
-                   className="w-full mt-6 bg-nyron-primary hover:bg-nyron-primary/90 text-white font-medium py-3 rounded-md flex items-center justify-center gap-2 transition-colors">
-                  <ShoppingCart size={20} weight="bold" />
-                  PURCHASE NOW
-                </button>
+                <Link href={`/checkout?plan=${selectedPlan}`} passHref>
+                  <button className="w-full mt-6 bg-nyron-primary hover:bg-nyron-primary/90 text-white font-medium py-3 rounded-md flex items-center justify-center gap-2 transition-colors">
+                    <ShoppingCart size={20} weight="bold" />
+                    PURCHASE NOW
+                  </button>
+                </Link>
               </div>
 
               <div className="p-6 bg-[#131314] rounded-lg border border-gray-800">
