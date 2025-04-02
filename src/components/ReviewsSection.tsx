@@ -19,7 +19,7 @@ const ReviewsSection = () => {
     },
     {
       id: 3,
-      text: "+rep ITS CRAZY GOOD Ive been using Nyron now for 5+ months and can only say its definitely worth the money, because you just dont have do worry about getting banned like you do with other che4ts. WWWWW THANK YOU",
+      text: "+rep ITS CRAZY GOOD Ive been using Clarity now for 5+ months and can only say its definitely worth the money, because you just dont have do worry about getting banned like you do with other che4ts. WWWWW THANK YOU",
       author: "jay",
       date: "31/08/2023 01:05 AM"
     },
@@ -31,7 +31,7 @@ const ReviewsSection = () => {
     },
     {
       id: 5,
-      text: "+rep nyron aimbot is works very good got me to plat3 in 2 days in build and i im a zb player",
+      text: "+rep clarity aimbot is works very good got me to plat3 in 2 days in build and i im a zb player",
       author: "itzShadowplayer",
       date: "11/09/2023 06:16 AM"
     },
@@ -48,7 +48,7 @@ const ReviewsSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            765+ Customers Gave Their{" "}
+            200+ Customers Gave Their{" "}
             <span className="block text-nyron-primary">Feedback</span>
           </h2>
         </div>
