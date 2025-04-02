@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
 
         <div className="bg-nyron-primary text-white text-xs py-1 px-3 rounded-full ml-2 flex items-center gap-1">
-          <span className="font-medium">Verified Seller Since 2024</span>
+          <span className="font-medium">Verified Seller Since 2023</span>
         </div>
       </div>
 
