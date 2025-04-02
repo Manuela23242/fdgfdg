@@ -10,7 +10,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           The future of aiming with{" "}
           <span className="block">
-            NYRON <span className="text-nyron-primary">AI</span>
+            CLARITY <span className="text-nyron-primary">AI</span>
           </span>
         </h1>
 
@@ -41,7 +41,7 @@ const Hero = () => {
           </Link>
 
           <Link
-            href="https://discord.gg/nyron"
+            href="https://discord.gg/clarity"
             target="_blank"
             className="bg-[#1a1a1c] hover:bg-[#252529] text-white font-medium py-3 px-6 rounded-md inline-flex items-center gap-2 transition-colors"
           >
