@@ -41,7 +41,7 @@ const ProductPage = () => {
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="w-full lg:w-1/2">
               <h1 className="text-4xl font-bold mb-4">
-                NYRON <span className="text-nyron-primary">AI</span>
+                CLARITY <span className="text-nyron-primary">AI</span>
               </h1>
 
               <div className="rounded-lg overflow-hidden border border-gray-800 bg-[#131314] mb-8">
@@ -111,6 +111,8 @@ const ProductPage = () => {
                 </div>
 
                 <button className="w-full mt-6 bg-nyron-primary hover:bg-nyron-primary/90 text-white font-medium py-3 rounded-md flex items-center justify-center gap-2 transition-colors">
+                   onClick={() => window.location.href = "https://ihre-zahlungsseite.com"}
+                   className="w-full mt-6 bg-nyron-primary hover:bg-nyron-primary/90 text-white font-medium py-3 rounded-md flex items-center justify-center gap-2 transition-colors">
                   <ShoppingCart size={20} weight="bold" />
                   PURCHASE NOW
                 </button>
