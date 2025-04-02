@@ -7,13 +7,13 @@ const Features = () => {
   const features = [
     {
       icon: "/icons/arrow.svg",
-      title: "4500+ PRODUCTS SOLD",
-      description: "Trusted by 850+ active users, Nyron has sold more than 4500 products.",
+      title: "500+ PRODUCTS SOLD",
+      description: "Trusted by 500+ active users, Clarity has sold more than 500 products.",
     },
     {
       icon: "/icons/products.svg",
       title: "10+ GAMES SUPPORTED",
-      description: "Nyron works for many games with our universal model, no extra payments for other games.",
+      description: "Clarity works for many games with our universal model, no extra payments for other games.",
     },
     {
       icon: "/icons/security.svg",
