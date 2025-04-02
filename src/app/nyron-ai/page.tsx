@@ -24,12 +24,6 @@ const ProductPage = () => {
       popular: false
     },
     {
-      id: "3x_months",
-      title: "3x Months",
-      price: "€54.90",
-      popular: true
-    },
-    {
       id: "lifetime",
       title: "Lifetime",
       price: "€89.90",
