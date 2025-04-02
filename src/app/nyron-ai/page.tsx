@@ -50,8 +50,8 @@ const ProductPage = () => {
 
               <div className="rounded-lg overflow-hidden border border-gray-800 bg-[#131314] mb-8">
                 <Image
-                  src="/images/ui-screenshot.png"
-                  alt="Nyron AI Interface"
+                  src="https://cdn.discordapp.com/attachments/1230923704259842148/1338353489839001610/image.png?ex=67eeab91&is=67ed5a11&hm=24654cd2a859999a82af9afa783ad50b04cb448c794090d409ee7da89e8f7194&"
+                  alt="Clarity AI Interface"
                   width={600}
                   height={400}
                   className="w-full object-cover"
