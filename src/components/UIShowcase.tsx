@@ -13,8 +13,8 @@ const UIShowcase = () => {
           <div className="flex-1 flex justify-center md:justify-start">
             <div className="relative rounded-lg overflow-hidden border border-gray-800 shadow-2xl">
               <Image
-                src="/images/ui-screenshot.png"
-                alt="Nyron AI Interface"
+                src="https://cdn.discordapp.com/attachments/1355461312582520902/1357053160568389784/image.png?ex=67eecdbe&is=67ed7c3e&hm=2c09c8ab1b46dbac6a7ba4fd92592a32f080fe4cfaff59660dea18de8fc8a819&"
+                alt="Clarity AI Interface"
                 width={500}
                 height={334}
                 className="object-cover"
