@@ -9,7 +9,7 @@ const kanit = Kanit({
 });
 
 export const metadata: Metadata = {
-  title: "Nyron - The most advanced AI Powered Aim Assist",
+  title: "Clarity - Advanced AI Aim Assist",
   description: "The most advanced AI Powered Aim Assist on the market.",
 };
 
