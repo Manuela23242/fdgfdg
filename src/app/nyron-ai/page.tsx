@@ -45,7 +45,7 @@ const ProductPage = () => {
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="w-full lg:w-1/2">
               <h1 className="text-4xl font-bold mb-4">
-                NYRON <span className="text-nyron-primary">AI</span>
+                CLARITY <span className="text-nyron-primary">AI</span>
               </h1>
 
               <div className="rounded-lg overflow-hidden border border-gray-800 bg-[#131314] mb-8">
@@ -163,7 +163,7 @@ const ProductPage = () => {
           <h2 className="text-3xl font-bold mb-8">User Security</h2>
 
           <p className="text-nyron-text mb-6">
-            Unlike other providers, each Nyron user receives a unique and private software build to prevent third party signature scans. This ensures that even if one user gets banned, everyone else remains completely safe.
+            Unlike other providers, each Clarity user receives a unique and private software build to prevent third party signature scans. This ensures that even if one user gets banned, everyone else remains completely safe.
           </p>
 
           <h2 className="text-3xl font-bold mb-8 mt-12">Extra Hardware</h2>
