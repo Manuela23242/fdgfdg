@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center gap-4">
           <div className="text-sm text-gray-500">
             <Link href="/" className="text-gray-500 hover:text-nyron-primary">
-              Nyron
+              Clarity
             </Link>
             <span className="mx-2">•</span>
             <span>Copyright © 2025</span>
