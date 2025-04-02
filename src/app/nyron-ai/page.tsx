@@ -32,6 +32,10 @@ const ProductPage = () => {
     },
   ];
 
+  const handlePurchase = () => {
+    window.location.href = "https://clarity.moe/product/AI-AIM";
+  };
+
   return (
     <main className="flex min-h-screen flex-col bg-[#0e0e0f]">
       <Header />
@@ -41,7 +45,7 @@ const ProductPage = () => {
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="w-full lg:w-1/2">
               <h1 className="text-4xl font-bold mb-4">
-                CLARITY <span className="text-nyron-primary">AI</span>
+                NYRON <span className="text-nyron-primary">AI</span>
               </h1>
 
               <div className="rounded-lg overflow-hidden border border-gray-800 bg-[#131314] mb-8">
@@ -110,12 +114,13 @@ const ProductPage = () => {
                   ))}
                 </div>
 
-                <Link href={`/checkout?plan=${selectedPlan}`} passHref>
-                  <button className="w-full mt-6 bg-nyron-primary hover:bg-nyron-primary/90 text-white font-medium py-3 rounded-md flex items-center justify-center gap-2 transition-colors">
-                    <ShoppingCart size={20} weight="bold" />
-                    PURCHASE NOW
-                  </button>
-                </Link>
+                <button 
+                  onClick={handlePurchase}
+                  className="w-full mt-6 bg-nyron-primary hover:bg-nyron-primary/90 text-white font-medium py-3 rounded-md flex items-center justify-center gap-2 transition-colors"
+                >
+                  <ShoppingCart size={20} weight="bold" />
+                  PURCHASE NOW
+                </button>
               </div>
 
               <div className="p-6 bg-[#131314] rounded-lg border border-gray-800">
