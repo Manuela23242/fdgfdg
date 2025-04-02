@@ -11,11 +11,11 @@ const Header = () => {
       <div className="flex items-center gap-4">
         <Link href="/" className="flex items-center gap-2">
           <Image src="/images/logo.png" alt="Nyron Logo" width={30} height={30} />
-          <h1 className="text-white text-xl font-medium">Nyron</h1>
+          <h1 className="text-white text-xl font-medium">Clarity</h1>
         </Link>
 
         <div className="bg-nyron-primary text-white text-xs py-1 px-3 rounded-full ml-2 flex items-center gap-1">
-          <span className="font-medium">Verified Seller Since 2021</span>
+          <span className="font-medium">Verified Seller Since 2024</span>
         </div>
       </div>
 
@@ -33,7 +33,7 @@ const Header = () => {
           FAQ
         </Link>
         <Link
-          href="https://discord.gg/nyron"
+          href="https://discord.gg/clarity"
           target="_blank"
           className="text-nyron-primary hover:text-white transition-colors flex items-center gap-1"
         >
