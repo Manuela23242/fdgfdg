@@ -10,9 +10,9 @@
     --card-foreground: 320 84% 10%;
     --popover: 0 0% 100%;
     --popover-foreground: 320 84% 10%;
-    --primary: 320 100% 70%; /* Pink primary color */
+    --primary: 320 100% 70%
     --primary-foreground: 0 0% 100%;
-    --secondary: 320 60% 96%;
+    --secondary: 320 60% 96%
     --secondary-foreground: 320 84% 10%;
     --muted: 320 30% 95%;
     --muted-foreground: 320 20% 40%;
@@ -22,7 +22,7 @@
     --destructive-foreground: 0 0% 100%;
     --border: 320 30% 90%;
     --input: 320 30% 90%;
-    --ring: 320 100% 70%; /* Pink ring color */
+    --ring: 320 100% 70%
     --radius: 0.5rem;
     --chart-1: 320 100% 70%;
     --chart-2: 320 80% 60%;
