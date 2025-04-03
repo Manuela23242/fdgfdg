@@ -17,7 +17,7 @@ const HardwareSection = () => {
             </h2>
 
             <p className="text-nyron-text mb-6">
-              To ensure top security, Clarity supports Hardware-Based Mouse Emulation, allowing invisible mouse movements to third-party systems. The hardware device is spoofed to appear as a standard mouse, ensuring safe and future-proof usage. While Nyron works perfectly without hardware, adding a device provides extra stability and protection against future detection methods. Prebuilt firmware, detailed setup guides, and support for any third-party firmware compatible with KmBox B+ commands are included for seamless integration with Nyron.
+              To ensure top security, Nyron supports Hardware-Based Mouse Emulation, allowing invisible mouse movements to third-party systems. The hardware device is spoofed to appear as a standard mouse, ensuring safe and future-proof usage. While Nyron works perfectly without hardware, adding a device provides extra stability and protection against future detection methods. Prebuilt firmware, detailed setup guides, and support for any third-party firmware compatible with KmBox B+ commands are included for seamless integration with Nyron.
             </p>
 
             <Link
@@ -28,6 +28,23 @@ const HardwareSection = () => {
               <ArrowRight size={16} weight="bold" />
             </Link>
           </div>
+
+          <div className="flex-1 flex justify-center md:justify-end order-1 md:order-2">
+            <div className="grid grid-cols-1 gap-4">
+              <div className="flex items-center gap-4">
+                <div className="relative rounded-lg overflow-hidden border border-gray-800 p-3 bg-[#131314] shadow-lg">
+                  <Image
+                    src="/images/kmbox.png"
+                    alt="KMBox Net"
+                    width={100}
+                    height={100}
+                    className="object-contain"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-white text-lg font-semibold">KMBOX NET</h3>
+                </div>
+              </div>
 
               <div className="flex items-center gap-4">
                 <div className="relative rounded-lg overflow-hidden border border-gray-800 p-3 bg-[#131314] shadow-lg">
